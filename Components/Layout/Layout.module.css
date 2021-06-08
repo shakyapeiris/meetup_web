@@ -43,3 +43,15 @@
         width: 95%;
     }
 }
+
+@media(max-width:340px){
+    .Header{
+        font-size: 0.8rem;
+    }
+}
+
+@media(max-width:280px){
+    .Header{
+        font-size: 0.7rem;
+    }
+}

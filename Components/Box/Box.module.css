@@ -15,6 +15,8 @@
     transition: 0.5s all ease;
     cursor: pointer;
     font-family:cursive;
+    width: 80%;
+    text-align: center;
 }
 .Box span:hover{
     opacity: 0.7;
@@ -49,6 +51,34 @@
     text-align:center;
 }
 
+@media(max-width:780px){
+    .Box .Date{
+        width: 12%;
+    }
+}
+
+@media(max-width:550px){
+    .Box .Date{
+        width: 15%;
+    }
+}
+
+@media(max-width:430px){
+    .Box .Date{
+        width: 18%;
+    }
+}
+@media(max-width:330px){
+    .Box .Date{
+        width: 23%;
+    }
+}
+
+@media(max-width:290px){
+    .Box .Date{
+        width: 25%;
+    }
+}
 .Box button{
     background: crimson;
     color: white;
