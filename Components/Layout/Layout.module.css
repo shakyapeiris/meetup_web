@@ -1,0 +1,28 @@
+.Header {
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: crimson;
+    color: white;
+}
+
+.Header ul{
+    list-style: none;
+}
+
+.Header li{
+    display:inline-block;
+    margin-right: 10px;
+}
+
+.Header li:last-child{
+    margin-right: none;
+}
+.Header a{
+    transition: 0.2s all ease;
+}
+.Header a:active,.Header a:hover{
+    border-bottom: 3px solid white;
+    padding-bottom: 5px;
+}
