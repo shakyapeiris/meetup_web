@@ -26,7 +26,7 @@ export async function getStaticPaths () {
   
 
   return{
-    fallback:false,
+    fallback:'blocking',
     paths:filt_data.map(meetup => ({
       params:{
         meetupId : meetup.key
