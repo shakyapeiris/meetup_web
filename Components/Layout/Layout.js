@@ -13,7 +13,7 @@ const Layout = (props) => {
                     <li><Link href = "/addmeetup">Add Meetup</Link></li>
                 </ul>
             </header>
-            <div style = {{width:"55%", margin:"auto"}}>
+            <div className = {classes.Container}>
                 {props.children}
             </div>
             

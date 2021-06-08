@@ -26,3 +26,20 @@
     border-bottom: 3px solid white;
     padding-bottom: 5px;
 }
+
+.Container{
+    width: 50%;
+    margin: auto;
+}
+
+@media (max-width:1000px){
+    .Container{
+        width: 80%;
+    }
+}
+
+@media (max-width:600px){
+    .Container{
+        width: 95%;
+    }
+}
